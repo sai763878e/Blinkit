@@ -4,16 +4,10 @@ import 'package:blinkit/features/authentication/screens/onboarding/widgets/onboa
 import 'package:blinkit/features/authentication/screens/onboarding/widgets/onboarding_next_button.dart';
 import 'package:blinkit/features/authentication/screens/onboarding/widgets/onboarding_pages.dart';
 import 'package:blinkit/features/authentication/screens/onboarding/widgets/onboarding_skip.dart';
-import 'package:blinkit/utils/constants/colors.dart';
 import 'package:blinkit/utils/constants/image_strings.dart';
-import 'package:blinkit/utils/constants/sizes.dart';
 import 'package:blinkit/utils/constants/text_strings.dart';
-import 'package:blinkit/utils/device/device_utility.dart';
-import 'package:blinkit/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iconsax/iconsax.dart';
-import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
 
 import '../../../../common/widgets/coach_marks/CoachMarkDesc.dart';

@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../../../../../common/widgets/custom_shapes/curved_edges/circular_container.dart';
 import '../../../../../common/widgets/custom_shapes/curved_edges/curve_edge_widget.dart';
 import '../../../../../utils/constants/colors.dart';
-import '../../../../../utils/helpers/helper_functions.dart';
 
 class CHeaderContainer extends StatelessWidget {
   const CHeaderContainer({

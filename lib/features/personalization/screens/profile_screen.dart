@@ -1,7 +1,5 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
 import 'package:blinkit/common/widgets/home_primary_header.dart';
 import 'package:blinkit/utils/constants/prefernece_constants.dart';
 import 'package:blinkit/utils/language/app_language_utils.dart';

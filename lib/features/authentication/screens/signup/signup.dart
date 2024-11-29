@@ -1,15 +1,10 @@
 import 'package:blinkit/common/widgets/login_signup/form_divider.dart';
 import 'package:blinkit/common/widgets/login_signup/social_buttons.dart';
-import 'package:blinkit/features/authentication/screens/signup/verify_email.dart';
 import 'package:blinkit/features/authentication/screens/signup/widgets/sign_up_form.dart';
 import 'package:blinkit/utils/constants/sizes.dart';
 import 'package:blinkit/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-import 'package:iconsax/iconsax.dart';
 
-import '../../../../utils/constants/colors.dart';
 import '../../../../utils/helpers/helper_functions.dart';
 
 class SignupScreen extends StatelessWidget {

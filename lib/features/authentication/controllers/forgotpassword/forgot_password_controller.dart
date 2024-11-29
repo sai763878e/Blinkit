@@ -1,5 +1,4 @@
 import 'package:blinkit/common/widgets/loaders/loaders.dart';
-import 'package:blinkit/data/repositories/authentication/authentication_repository.dart';
 import 'package:blinkit/utils/constants/image_strings.dart';
 import 'package:blinkit/utils/device/network_manager.dart';
 import 'package:blinkit/utils/popups/full_screen_loader.dart';

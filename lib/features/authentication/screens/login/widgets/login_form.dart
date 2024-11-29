@@ -3,14 +3,11 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
-import '../../../../../utils/constants/colors.dart';
-import '../../../../../utils/constants/image_strings.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 import '../../../../../utils/validators/c_validation.dart';
 import '../../../controllers/login/login_controller.dart';
 import '../../forgotpassword/forgot_password.dart';
-import '../../signup/signup.dart';
 
 class LoginForm extends StatelessWidget {
   const LoginForm({

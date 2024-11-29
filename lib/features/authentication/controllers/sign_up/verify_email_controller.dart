@@ -1,9 +1,5 @@
-import 'dart:async';
 
 import 'package:blinkit/common/widgets/loaders/loaders.dart';
-import 'package:blinkit/common/widgets/success_screen/success_screen.dart';
-import 'package:blinkit/data/repositories/authentication/authentication_repository.dart';
-import 'package:blinkit/utils/constants/image_strings.dart';
 
 import 'package:get/get.dart';
 

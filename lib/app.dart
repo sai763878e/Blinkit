@@ -1,15 +1,9 @@
-import 'dart:async';
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:get/get.dart';
 import 'package:blinkit/features/authentication/screens/splash/splash_screen.dart';
 import 'package:blinkit/utils/NavigationObserver.dart';
-import 'package:blinkit/utils/constants/colors.dart';
-import 'package:blinkit/utils/constants/prefernece_constants.dart';
 import 'package:blinkit/utils/language/app_language_utils.dart';
-import 'package:blinkit/utils/local_storage/storage_utility.dart';
 import 'package:blinkit/utils/theme/theme.dart';
 import 'package:blinkit/routes/app_routes.dart';
 import 'bindings/general_bindings.dart';

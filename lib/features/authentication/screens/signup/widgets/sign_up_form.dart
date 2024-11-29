@@ -2,14 +2,12 @@ import 'package:blinkit/features/authentication/controllers/sign_up/sign_up_cont
 import 'package:blinkit/utils/validators/c_validation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get_storage/get_storage.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 import '../../../../../utils/helpers/helper_functions.dart';
-import '../verify_email.dart';
 
 class SignUpForm extends StatelessWidget {
   const SignUpForm({

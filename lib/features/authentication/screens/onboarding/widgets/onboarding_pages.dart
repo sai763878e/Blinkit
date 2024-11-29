@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:lottie/lottie.dart';
 
 import '../../../../../utils/constants/sizes.dart';
-import '../../../../../utils/device/device_utility.dart';
 import '../../../../../utils/helpers/helper_functions.dart';
 
 
@@ -13,7 +12,7 @@ class OnBoardingPages extends StatelessWidget {
         required this.subTitle,
         required this.image});
 
-  String image, title, subTitle;
+  final String image, title, subTitle;
 
   @override
   Widget build(BuildContext context) {

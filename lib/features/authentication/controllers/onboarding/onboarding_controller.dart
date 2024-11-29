@@ -1,11 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:get/get.dart';
-import 'package:get/get_state_manager/src/simple/get_controllers.dart';
 import 'package:get_storage/get_storage.dart';
 import 'package:blinkit/features/navigation/navigation_menu.dart';
 
-import '../../screens/login/login_screen.dart';
 
 class OnBoardingController extends GetxController {
   static OnBoardingController get instance => Get.find();

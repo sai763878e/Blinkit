@@ -58,6 +58,7 @@ class CValidation {
     if (value == null || value.isEmpty) {
       return '$fieldName is required.';
     }
+    return null;
     // return '$fieldName is required.';
 
     // return null;
@@ -119,7 +120,7 @@ class CValidation {
         r'^(https?:\/\/)?([a-z0-9-]+\.)+[a-z]{2,}(\/[^\s]*)?$';
     final regex = RegExp(urlPattern);
 
-    if (!regex.hasMatch(value!)) {
+    if (!regex.hasMatch(value)) {
       return 'Please enter a valid $fieldName URL';
     }
     return null; // Return null if input is valid

@@ -29,7 +29,7 @@ class ChangeLanguageController extends GetxController {
     //         {e.isSelected = true}
     //     });
 
-    languageList.value?.forEach((e) {
+    languageList.value.forEach((e) {
       if (e.languageCode.isCaseInsensitiveContains(
           CLocalStorage().readData(PreferenceConstants.selectedLanguageCode))) {
         e.isSelected = true;
