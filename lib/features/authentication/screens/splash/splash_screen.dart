@@ -1,10 +1,10 @@
 import 'dart:async';
 
+import 'package:blinkit/utils/constants/image_strings.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../../../data/repositories/authentication/authentication_repository.dart';
-import '../../../../utils/constants/colors.dart';
 
 class SplashScreen extends StatelessWidget {
   @override
@@ -17,12 +17,7 @@ class SplashScreen extends StatelessWidget {
     });
 
     return const Scaffold(
-      backgroundColor: CColors.primary,
-      body: Center(
-        child: CircularProgressIndicator(
-          color: Colors.white,
-        ),
-      ),
+      body: Image(image: AssetImage(CImages.splash)),
     );
   }
 }

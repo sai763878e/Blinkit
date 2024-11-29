@@ -36,4 +36,6 @@ class CImages {
   static const String userIcon = "assets/icons/user/user_icon.png";
 
   static const String processing = "assets/images/processing.gif";
+  static const String splash = "assets/images/splash_logo.jpeg";
+
 }
